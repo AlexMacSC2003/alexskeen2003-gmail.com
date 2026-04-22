@@ -26,9 +26,9 @@ $$i)\hspace{0.5cm}2\hat{i} + 3\hat{j} - 4\hat{k} \hspace{1cm} ii) \hspace{0.5cm}
 
 ### 2) Compute the lengths of the vectors shown in a)i), a)iii) a)v), b)i), b)iii) and b)v).  
 
-### 3) Sketch the vectors $\ \hat{i}, \hat{j}\$ and $\\hat{k} \$ on the same set of axes. Draw another set of axes and vectors which is a mirror image of your first sketch. Can the mirror image be rotated or translated to match the original set of axes?
+### 3) Sketch the vectors $\ \hat{i}, \hat{j}\$ and $\ \hat{k}\$ on the same set of axes. Draw another set of axes and vectors which is a mirror image of your first sketch. Can the mirror image be rotated or translated to match the original set of axes?
 
-### 4) Consider the vectors $\\hat{a}$ and $\\hat{b} \$, which represent the points $\ A\$ and $\ B\$.   
+### 4) Consider the vectors $\\hat{a}$ and $\\hat{b} \$, which represent the points $\ A\$ and $\ B\$ respectively.   
 
 $$ \hat{a}=\begin{bmatrix}
 1 \\ 
@@ -81,8 +81,16 @@ $$i) \hspace{0.5cm}\begin{bmatrix}
 
 #### b) In part a), which vector pairs are perpendicular to one another? 
 
-### 6) Suppose we have a cube with side legnths of 1. Two of the vertices lie at the points (0,0,0) and (1,1,1). Write down the location of the other 6 vertices. 
+### 6) Suppose we have a cube with side lengths of 1. Two of the vertices lie at the points (0,0,0) and (1,1,1). Write down the location of the other 6 vertices. 
 #### i) What is the radius of the largest sphere than could fit inside the cube?
 #### ii) What is the length of the largest stick that could fit inside the cube?
 #### iii) Where is the cube's centre located?
-#### iv) Suppose I want to create a new shape. I do this by first locating the centre of a cube face. Call this point $\ P_1 \$ and call the face $\ F_1 \$ . This face centre is then connected to the 4 face centres that are closest 4 cube faces. I repeat this procedure with point $\ P_2 \$, the point that lies opposite to $\ P_2 \$.  
+#### iv) Suppose I want to create a new shape. I do this by first locating the centres of each cube face. I then start connecting all the centres to their nearest neighbouring face centres. Each point should have 4 nearest neighbours. The final shape should have 12 distinct edges. 
+##### I) Sketch the new shape sitting inside the original cube.
+##### II) How long are the edges of the new shape?
+##### III) What angle do the new edges make with the cube faces they stick out of?
+
+### 7) Without using coordinates, show that $\ \hat{a}\\cdot\\hat{b} = \hat{b}\\cdot\\hat{a}$.   
+
+### 8) Imagine a triangle with vertices at the origin $\ O\$, point $\ A\$ and point $\ C\$. Point $\ M\$ lies at the midpoint of $\ OC\$. $\ OA\$ has length $\ a\$, $\ OC\$ has length $\ c\$, $\ AC\$ has length $\ b\$ and $\ AM\$ has length $\ d\$ . Using the fact that for any vector $\ \vec{x}\$, $\ \vec{x}\cdot\\vec{x} = {|\vec{x}|}^2$, prove that: 
+$$\ a^2 + b^2 = 2{d}^2 + \frac{1}{2}{c}^2\ $$
